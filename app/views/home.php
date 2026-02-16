@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/school_management/assets/css/style.css">
 </head>
 
 <body>
@@ -19,12 +19,12 @@
                 <span class="bar"></span>
             </button>
             <ul class="navbar-menu">
-                <li><a href="#" class="active">Home</a></li>
+                <li><a href="" class="active">Home</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Services</a></li>
                 <li><a href="#">Blog</a></li>
                 <li><a href="#">Contact</a></li>
-                <li><a href="#"><i class="fa-solid fa-right-from-bracket"></i></a></li>
+                <li><a href="login"><i class="fa-solid fa-right-from-bracket"></i></a></li>
             </ul>
         </div>
     </nav>
@@ -58,7 +58,7 @@
             <?php
             for ($i = 0; $i < 4; $i++) { ?>
                 <div class="card">
-                    <img src=" /school_management/assets/images/c-1.jpg" class="card-img-top" alt="...">
+                    <img src="/school_management/assets/images/c-1.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Web Development</h5>
                         <p class="card-text">

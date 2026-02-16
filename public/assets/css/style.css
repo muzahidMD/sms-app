@@ -1,8 +1,7 @@
 body {
     margin: 0;
-    /* font-family: sans-serif; */
-    min-height: 100vh;
-    background-color: #e9e9e9;
+    background: url('assets/images/White.jpg') no-repeat center fixed;
+    background-size: cover;
 }
 
 .container {
@@ -22,7 +21,7 @@ body {
 }
 
 .heading span {
-    color: #1ac4f3;
+    color: #5d89d4;
 }
 
 .text-center {
@@ -44,19 +43,20 @@ body {
     margin-top: 10px;
     font-weight: 500;
     font-size: 18px;
-    border-radius: 20px;
-    background: #adddff;
-    border: 2px solid #d4d4d4;
+    border-radius: 15px;
+    background: #bfd0ed;
+    border: none;
     text-transform: uppercase;
     cursor: pointer;
 }
 
-.text {
-    font-size: 20px;
+.button:hover {
+    background: #a3beef;
+    /* color: white; */
 }
 
-.button:hover {
-    background: rgb(136, 205, 255);
+.text {
+    font-size: 20px;
 }
 
 
@@ -115,8 +115,10 @@ body {
 .navbar-container .navbar-menu li a:hover,
 .navbar-container .navbar-menu li a.active {
     color: #162530;
-    background: rgb(188, 212, 229);
-    border: 2px solid #d4d4d4;
+    /* background: rgb(188, 212, 229); */
+
+    background: #a3beef;
+
 }
 
 .navbar-toggle {
@@ -141,7 +143,6 @@ body {
     grid-template-columns: repeat(2, 1fr);
     gap: 40px;
     align-items: center;
-
 }
 
 .banner-content {
@@ -161,7 +162,6 @@ body {
 /* form style */
 .banner-form {
     display: flex;
-    justify-content: end;
 }
 
 .form {
@@ -235,14 +235,18 @@ body {
 .card-button {
     text-decoration: none;
     color: black;
-    padding: 5px 20px;
+    padding: 7px 20px;
     margin: 0;
     font-weight: 500;
     font-size: 16px;
-    border-radius: 20px;
-    background: #adddff;
-    border: 2px solid #d4d4d4;
+    border-radius: 12px;
+    background: #bfd0ed;
+    border: none;
     text-transform: uppercase;
+}
+
+.card-button:hover {
+    background: #a3beef;
 }
 
 
